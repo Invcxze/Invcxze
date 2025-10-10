@@ -47,7 +47,7 @@
   <br/>
 
   <img src="./assets/console.gif" alt="Retro consoles" width="200" style="margin:8px" />
-  <img src="./assets/comics.jpeg"  alt="Comics"         width="200" style="margin:8px" />
+  <img src="./assets/Comics.jpeg"  alt="Comics"         width="200" style="margin:8px" />
   <img src="./assets/lego.jpeg"    alt="LEGO"           width="200" style="margin:8px" />
 </p>
 
