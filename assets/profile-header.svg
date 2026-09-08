@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="290" viewBox="0 0 1000 290" role="img" aria-labelledby="title desc">
+<title id="title">Vladislav Khramenko</title>
+<desc id="desc">Python Backend Engineer in Innopolis, Russia. Django, FastAPI, and software for education.</desc>
+<rect width="1000" height="290" rx="20" fill="#F5EAD8"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<circle cx="46" cy="42" r="5" fill="#C67139"/>
+<text x="62" y="47" font-size="13" font-weight="700" letter-spacing="1.2" fill="#8C491A">INVCXZE / SOFTWARE DEVELOPER</text>
+<text x="42" y="125" font-family="Georgia, 'Times New Roman', serif" font-size="65" font-weight="700" fill="#201E1D">Vladislav</text>
+<text x="42" y="195" font-family="Georgia, 'Times New Roman', serif" font-size="65" font-weight="700" fill="#201E1D">Khramenko</text>
+<text x="46" y="246" font-size="18" font-weight="700" fill="#56633F">Python Backend Engineer</text>
+<rect x="614" y="64" width="342" height="166" rx="20" fill="#E1EECC"/>
+<text x="640" y="100" font-size="13" font-weight="700" letter-spacing="1" fill="#3D472B">MAIN FOCUS</text>
+<text x="640" y="139" font-size="24" font-weight="700" fill="#201E1D">Python. Django. FastAPI.</text>
+<text x="640" y="174" font-size="17" fill="#3D472B">APIs and education platforms.</text>
+<text x="640" y="202" font-size="15" fill="#56633F">Based in Innopolis, Russia</text>
+</g>
+</svg>

@@ -1,0 +1,55 @@
+name: Update profile cards
+
+on:
+  schedule:
+    - cron: '23 4 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/profile-cards.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-cards-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v7
+
+      - name: Generate GitHub overview
+        uses: seijikohara/profile-cards-action@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          username: Invcxze
+          cards: overview
+          output-dir: assets
+          themes: light,dark
+          commit: false
+
+      - name: Generate combined activity cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: >-
+          python3 scripts/render_activity.py
+          --github-login Invcxze
+          --gitlab-snapshot data/gitlab-activity.json
+          --output assets
+
+      - name: Commit updated cards
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/overview.*.svg assets/lifetime.*.svg assets/contributions.*.svg assets/activity-summary.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "chore(profile): refresh activity cards [skip ci]"
+          git push
