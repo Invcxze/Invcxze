@@ -1,0 +1,14 @@
+{
+  "name": "invcxze-profile-learning-card",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "learning:fetch": "node scripts/fetch-learning-activity.mjs",
+    "learning:render": "node scripts/render-learning-card.mjs",
+    "learning:refresh": "npm run learning:fetch && npm run learning:render",
+    "test": "node --test scripts/tests/*.test.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.63.0"
+  }
+}

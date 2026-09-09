@@ -69,6 +69,15 @@ Specialization: Data Analysis and Artificial Intelligence.
 Secondary vocational education in Information Systems and Programming.<br>
 Qualification: Web and Multimedia Application Developer.
 
+### Learning in public
+
+Courses and practice are part of the work too. Stepik and SoloLearn refresh every week; Mimo shows my latest saved progress.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/learning.dark.svg" />
+  <img src="./assets/learning.light.svg" alt="Vladislav Khramenko's learning activity across Stepik, SoloLearn, and Mimo" width="100%" />
+</picture>
+
 ### The commit trail
 
 From the first contribution to whatever comes next.

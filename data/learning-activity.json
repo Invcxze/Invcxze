@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "generated_at": "2026-09-09T07:44:24.369Z",
+  "platforms": {
+    "stepik": {
+      "name": "Stepik",
+      "url": "https://stepik.org/users/634260482/profile",
+      "status": "ok",
+      "checked_at": "2026-09-09T07:44:24.369Z",
+      "solved": 366,
+      "current_streak": 0,
+      "best_streak": 4,
+      "certificates": 1,
+      "certificate_links": [
+        "https://stepik.org/cert/2346827"
+      ]
+    },
+    "sololearn": {
+      "name": "SoloLearn",
+      "url": "https://www.sololearn.com/en/profile/24797541",
+      "status": "ok",
+      "checked_at": "2026-09-09T07:44:24.369Z",
+      "xp": 25850,
+      "level": 16,
+      "followers": 8,
+      "following": 2,
+      "certificates": 22,
+      "certificate_names": [
+        "Python for Beginners",
+        "Introduction to C#",
+        "Introduction to HTML",
+        "Introduction to CSS",
+        "Introduction to SQL",
+        "Python Intermediate",
+        "Introduction to C",
+        "Python Core",
+        "Python Data Structures",
+        "Python for Data Science",
+        "CSS",
+        "React + Redux",
+        "JavaScript",
+        "SQL",
+        "Introduction to C++",
+        "jQuery",
+        "HTML",
+        "Introduction to Python",
+        "Python Developer",
+        "Coding for Data",
+        "Data Literacy with AI",
+        "Brainstorm with AI"
+      ],
+      "certificate_links": [
+        "https://www.sololearn.com/certificates/CT-LAP1FLK0",
+        "https://www.sololearn.com/certificates/CC-7F1Z1GRD",
+        "https://www.sololearn.com/certificates/CC-FMCTSXHI",
+        "https://www.sololearn.com/certificates/CC-EQFRQG56",
+        "https://www.sololearn.com/certificates/CC-4YE5UKIT",
+        "https://www.sololearn.com/certificates/CT-QVIQFLCB",
+        "https://www.sololearn.com/certificates/CC-NOBT404I",
+        "https://www.sololearn.com/certificates/CT-GNSSMUBR",
+        "https://www.sololearn.com/certificates/CT-UMG7PYJ7",
+        "https://www.sololearn.com/certificates/CT-HTQT4VL8",
+        "https://www.sololearn.com/certificates/CT-N3MJYGS7",
+        "https://www.sololearn.com/certificates/CT-H8ISIJOE",
+        "https://www.sololearn.com/certificates/CT-CPGQPTQF",
+        "https://www.sololearn.com/certificates/CT-DOGD7SDT",
+        "https://www.sololearn.com/certificates/CC-B3SLNP33",
+        "https://www.sololearn.com/certificates/CT-PUNEUZCQ",
+        "https://www.sololearn.com/certificates/CT-3LAXLPF6",
+        "https://www.sololearn.com/certificates/CC-JN3HLQGJ",
+        "https://www.sololearn.com/certificates/CC-QFSRYHEZ",
+        "https://www.sololearn.com/certificates/CC-BLIE2I3A",
+        "https://www.sololearn.com/certificates/CC-1HHHSHUX",
+        "https://www.sololearn.com/certificates/CC-UC7IG0BH"
+      ]
+    },
+    "mimo": {
+      "name": "Mimo",
+      "url": "https://mimo.org/web/library",
+      "status": "snapshot",
+      "checked_at": "2026-09-09T07:10:00.000Z",
+      "completed_courses": 4,
+      "completed_course_names": [
+        "Python",
+        "SQL",
+        "HTML",
+        "JavaScript"
+      ],
+      "path": "Full-Stack Developer",
+      "progress": 5,
+      "sections_completed": 1,
+      "sections_total": 20,
+      "current_streak": 0
+    }
+  }
+}
