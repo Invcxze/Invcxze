@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generated_at": "2026-10-26T11:13:37.465Z",
+  "generated_at": "2026-11-02T13:37:22.449Z",
   "platforms": {
     "stepik": {
       "name": "Stepik",
       "url": "https://stepik.org/users/634260482/profile",
       "status": "ok",
-      "checked_at": "2026-10-26T11:13:37.465Z",
+      "checked_at": "2026-11-02T13:37:22.449Z",
       "solved": 366,
       "current_streak": 0,
       "best_streak": 4,
@@ -19,7 +19,7 @@
       "name": "SoloLearn",
       "url": "https://www.sololearn.com/en/profile/24797541",
       "status": "ok",
-      "checked_at": "2026-10-26T11:13:37.465Z",
+      "checked_at": "2026-11-02T13:37:22.449Z",
       "xp": 26410,
       "level": 16,
       "followers": 8,
